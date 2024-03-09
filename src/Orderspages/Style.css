@@ -1,0 +1,34 @@
+.container{
+    padding: 32px;
+    padding-top: 70px;
+    background-image: url('https://t4.ftcdn.net/jpg/01/98/50/63/360_F_198506301_zS7IDI4YU7kW0zFVagjTwl8AVI7lZvjP.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paymentcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #F8EBE3;
+    background-color: #F8EBE3;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 40vw;
+    min-height: 60vh;
+}
+.QRcode{
+    margin-top: 10px;
+}
+h5{
+    padding: 15px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px; */
+}

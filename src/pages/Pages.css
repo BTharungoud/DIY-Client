@@ -1,0 +1,101 @@
+.Loginpage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://t4.ftcdn.net/jpg/01/98/50/63/360_F_198506301_zS7IDI4YU7kW0zFVagjTwl8AVI7lZvjP.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pagebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:  #0C0703;
+    margin-top: 0 !important;
+    position: relative;
+}
+.signupcontainer{
+    border: 2px solid transparent;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    min-width: 50vw;
+    max-width: auto;
+    min-height: 70vh;
+    max-height: auto;
+    background-color: #F8EBE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:  #0C0703;
+}
+.formclass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:  #0C0703;
+}
+.account {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color:  #0C0703;
+}
+.homepage{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat !important;
+    position: relative;
+    color: #F8EBE3;
+}
+.NavBarDiv{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: flex-end;
+    color: #F8EBE3;
+}
+.NavBarDiv>*{
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #F8EBE3;
+    border-radius: 15px;
+
+}
+#block1{
+    display: flex;
+    flex-direction: column;
+    color: #F8EBE3;
+}
+.homepagecotainer{
+    display: flex;
+    max-height: 65%;
+    margin: 0 1% 0 2%;
+    padding: 2%;
+    border: 2px solid #F8EBE3;
+    border-radius: 20px;
+    color: #F8EBE3;
+}
+.homepagecotainer>*{
+    width: 50%;
+    height: auto;
+}
+@media screen and (max-width:900px) {
+    .homepagecotainer{
+        flex-direction: column;
+        max-height: fit-content;
+    }
+    .homepagecotainer>*{
+        width: 100%;
+        height: auto;
+    }
+    .homepage{
+       width: 100%;
+       height: fit-content;
+    }
+}
